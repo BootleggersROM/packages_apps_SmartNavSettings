@@ -77,6 +77,12 @@
                 android:max="135"
                 settings:min="65"
                 settings:units="%" />
+
+            <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+                android:key="use_bottom_gesture_navigation"
+                android:title="@string/use_bottom_gesture_title"
+                android:summary="@string/use_bottom_gesture_summary"
+                android:defaultValue="false" />
         <PreferenceScreen
             android:key="pulse_settings"
             android:title="@string/pulse_settings"
