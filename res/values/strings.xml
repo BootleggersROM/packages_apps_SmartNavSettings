@@ -148,6 +148,10 @@
     <string name="pulse_auto_color_summary">Sync color with album arts. Overrides Lava Lamp and lines opacity.</string>
     <string name="pulse_accent_color_title">Use accent color for pulse</string>
     <string name="pulse_accent_color_summary">Enabling this will make pulse use your current accent color. It will disable Lava Lamp</string>
+    <string name="fling_lavalamp_color_from">Lava Lamp start color</string>
+    <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
+    <string name="pulse_colors_reset_title">Reset pulse colors</string>
+    <string name="pulse_colors_reset_message">Are you sure you want to reset these colors to default?</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
