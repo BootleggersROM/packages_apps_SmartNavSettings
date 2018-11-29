@@ -146,6 +146,8 @@
     <string name="pulse_custom_buttons_opacity_title">Smartbar buttons opacity on Pulse</string>
     <string name="pulse_auto_color_title">Automatic Pulse color</string>
     <string name="pulse_auto_color_summary">Sync color with album arts. Overrides Lava Lamp and lines opacity.</string>
+    <string name="pulse_accent_color_title">Use accent color for pulse</string>
+    <string name="pulse_accent_color_summary">Enabling this will make pulse use your current accent color. It will disable Lava Lamp</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
