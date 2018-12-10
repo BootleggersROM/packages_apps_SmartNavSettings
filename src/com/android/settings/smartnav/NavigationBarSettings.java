@@ -132,6 +132,7 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             case 1:
                 mDefaultSettings.setEnabled(false);
                 mDefaultSettings.setSelectable(false);
+                disableSwipeup();
                 mSmartbarSettings.setEnabled(true);
                 mSmartbarSettings.setSelectable(true);
                 mFlingSettings.setEnabled(false);
@@ -140,12 +141,18 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             case 2:
                 mDefaultSettings.setEnabled(false);
                 mDefaultSettings.setSelectable(false);
+                disableSwipeup();
                 mSmartbarSettings.setEnabled(false);
                 mSmartbarSettings.setSelectable(false);
                 mFlingSettings.setEnabled(true);
                 mFlingSettings.setSelectable(true);
                 break;
         }
+    }
+
+    private void disableSwipeup() {
+       Settings.Secure.putInt(getContentResolver(),
+            Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
     }
 
     private void updateBarVisibleAndUpdatePrefs(boolean showing) {
