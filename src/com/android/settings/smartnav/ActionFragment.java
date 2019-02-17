@@ -54,7 +54,7 @@ public class ActionFragment extends SettingsPreferenceFragment implements
 
     private ShortcutPickHelper mPicker;
     protected ArrayList<ActionPreference> mPrefHolder;
-    private String mHolderTag;
+    protected String mHolderTag;
     private Defaults mDefaults;
     private ArrayList<ButtonConfig> mButtons;
     private ArrayList<ButtonConfig> mDefaultButtons;
